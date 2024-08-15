@@ -114,3 +114,7 @@ h2 {
 .cta h2 {
     font-size: 40px;
 }
+/* message */
+.message {
+    background: var(--primary);
+}
