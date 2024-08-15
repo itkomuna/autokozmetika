@@ -1,0 +1,32 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* variables */
+:root {
+    --font: "Montserrat", system-ui;
+    --white: white;
+    --black: black;
+    --accents: #F5631A;
+    --primary: #242847;
+    --lightGray: #F8F8F8;
+    --gray: #d6d6d6;
+    --darkGrey: #707070;
+}
+
+/* basic styles */
+body {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 20px;
+}
+/* nav */
+.navbar-brand img {
+    width: 115px;
+}
+.navbar.bg-body-tertiary {
+    background: var(--white) !important;
+}
+.navbar .nav-link {
+    font-weight: 500;
+    margin-left: 50px;
+}
