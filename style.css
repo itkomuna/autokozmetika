@@ -79,3 +79,18 @@ h2 {
     font-size: 40px;
     font-weight: 500;
 }
+/* vodic */
+.vodic {
+    padding: 100px 0 50px 0;
+}
+.vodic .col-md-5 {
+    margin-bottom: 50px;
+}
+.vodic h3:before {
+    content: "\F285";
+    font-family: "bootstrap-icons";
+    display: inline-block;
+    margin-right: 20px;
+    background: var(--accents);
+    padding: 20px;
+}
