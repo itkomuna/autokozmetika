@@ -94,3 +94,12 @@ h2 {
     background: var(--accents);
     padding: 20px;
 }
+/* shop */
+.shop .mt-5 a {
+    text-decoration: none;
+    color: var(--primary);
+}
+.shop .mt-5 a:hover {
+    
+    text-decoration: underline;
+}
