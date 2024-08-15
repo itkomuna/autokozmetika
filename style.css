@@ -18,6 +18,14 @@ body {
     font-family: var(--font);
     font-weight: 400;
     font-size: 20px;
+    color: var(--primary);
+}
+h1 {
+    font-weight: 900;
+    font-size: 60px;
+}
+h2 {
+    font-size: 50vh;
 }
 /* nav */
 .navbar-brand img {
@@ -29,4 +37,27 @@ body {
 .navbar .nav-link {
     font-weight: 500;
     margin-left: 50px;
+}
+.btn {
+    padding: 15px 50px;
+    border-radius: 0;
+    border: none;
+}
+.btn-warning {
+    background: var(--accents);
+    color: var(--white);
+}
+.btn-warning:hover {
+    background: var(--primary);
+    color: var(--white);
+}
+/* main header */
+.mainHeader {
+    background-image: url(img/header.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.mainHeader .row {
+    height: 90vh;
 }
