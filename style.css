@@ -118,3 +118,13 @@ h2 {
 .message {
     background: var(--primary);
 }
+/* footer */
+footer img {
+    width: 200px;
+}
+footer .nav-link {
+    color: var(--accents);
+}
+footer .nav-link:hover {
+    color: var(--primary);
+}
